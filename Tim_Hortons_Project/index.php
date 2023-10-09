@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,25 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
-    <title>Document</title>
+    <title>timhortons</title>
 </head>
 <body>
     <div class="main-container">
         <section id="header">
             <div class="item header-container">
                 <div class="header-item1">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img id="label1" src="images/Tim_Hortons-Advert.png" alt="label">
                     </a>  
                 </div>
                 <div class="header-item2">
-                    <a href="Sign-in.html">
+                    <a href="Sign-in.php">
                         <input type="button" id="Sign-In" class="other-button" value="Sign In">
                     </a>
-                    <a href="order.html">
+                    <a href="order.php">
                         <input type="button" value="Place order" class="other-button">
                     </a>
-                    
                 </div>
             </div>
         </section>
@@ -34,18 +34,16 @@
                      Tims for Good:
                      Coffee for    
                      Communities   
-                   </h1>
+                   </h1 >
                     <p>
                         There’s a farmer behind every Tims cup we serve. Learn 
                         more about how our Coffee for Communities helps empower
                         coffee farmers and improve their
                         livelihoods through training with our partners
-                    </p>     
-                    <div>
-                        <a href="Sign-in.html" id="wierd-link">
-                        <input type="button" value="Order History" class="other-button" id="wierd-button">
-                        </a>
-                    </div>       
+                    </p>
+                    <a href="https://www.timhortons.ca/">
+                        <input type="button" value="Tims for Good" class="other-button">
+                    </a>                  
                 </div>
                 <div class="intro-item2">
                     <img id="hero-image" src="images/tim_hortons_coffee.jpg">
@@ -86,11 +84,10 @@
                             until May 29. Only at Tims. *Terms apply.
                          </p>
                     </div>
-                    <a href="https://www.timhortons.ca/tims-for-good">
-                        <input type="button"  value="Order Now" class="para-button">
+                    <a href="https://www.timhortons.ca/TimsC2W">
+                        <input type="button"  value="Learn More" class="para-button">
                     </a>
                 </div>
-                
             </div>
             <div class="cupon cupon-item3" >
                 <img class="cupon-images" src="images/Share_love.jpg" id="legend" alt="legend" >    
@@ -245,9 +242,3 @@
     </div>
 </body>
 </html>
-<script>
-    document.getElementById("wierd-button").onclick=function()
-    {
-        document.getElementById("wierd-link").href="Sign-in.html";
-    }
-</script>

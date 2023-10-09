@@ -93,7 +93,7 @@ body
 #btn10:hover {
     color: rgb(212, 8, 28) ;
     background-color: white;
-    border-color: rgb(212, 8, 28);
+    border:2px solid rgb(212, 8, 28);
   }
 
   #Sign-up:link {

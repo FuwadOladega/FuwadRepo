@@ -196,6 +196,7 @@ body {
   color: rgb(212, 8, 28) ;
   width: 350px;
   background-color: white;
+  border:2px solid rgb(212, 8, 28);
 }
 /* Form Container Styles */
 .form-container {
