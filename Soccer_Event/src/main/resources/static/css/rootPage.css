@@ -1,0 +1,191 @@
+@charset "ISO-8859-1";
+
+body {
+    background-color: white;
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(128, 64, 64);
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(128, 64, 64);
+    font-style: italic;
+    font-size: 35px;
+}
+
+main {
+    border: 2px solid silver;
+    height: 34rem;
+    background-image: url("https://soccertoday.com/wp-content/uploads/2016/07/Youth-Soccer-Players-winning-a-soccer-tournament.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation-name: change-image;
+    animation-delay: 3s;
+    animation-duration:30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier();
+    animation-direction: both;
+}
+@keyframes change-image{
+	
+	30%
+	{
+		background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-black-retro-football-movie-ad-background-picture-image_911623.jpg");
+	}
+	55%
+	{
+		background-image: url("https://wallpaperbrokers.com.au/cdn/shop/products/shutterstock_406740199_web.jpg?v=1495779660");
+	}
+	75%
+	{
+		background-image: url("https://proind.org/wp-content/uploads/2021/12/Football-Tournaments.jpg");
+	}
+}
+
+h2 {
+    font-size: 180px;
+    color: white;
+    font-weight: bold;
+    height: 175px;
+    text-shadow: 8px 2px saddlebrown;
+}
+
+h3 {
+    font-size: 85px;
+    text-align: center;
+    color: white;
+    height: 100px;
+    text-shadow: 8px 2px saddlebrown;
+}
+
+.date {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-shadow: 3px 2px saddlebrown;
+}
+
+.advert {
+    position: absolute;
+    left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.advert-button {
+    display: flex;
+    width: 600px;
+    position: absolute;
+    bottom: 30%;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.btn10 {
+    border: 2px solid rgb(128, 64, 64);
+    width: 200px;
+    color: rgb(128, 64, 64);
+    padding: 15px 5px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: white;
+    font-weight: bolder;
+}
+
+.btn11:hover {
+    background-color: rgb(128, 64, 64);
+    color: white;
+    border:3px solid rgb(128, 64, 64);
+    transform: translateY(-1px);
+   
+}
+.btn10:hover {
+    background-color: white;
+    color: #4CAF50;
+    border-color: #4CAF50;
+    transform: translateY(-5px);
+}
+.container
+{
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+	background-color: white;
+	padding:30px 0px;
+	justify-content: space-around;
+}
+.container img {
+    width: 170px;
+    margin-left: 30px;
+}
+.container #map {
+    width: 130px;
+    margin-left: 100px;
+}
+
+.container p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+    text-decoration: none;
+}
+.container h6{text-decoration: none;}
+.container h6:hover{text-decoration: underline;}
+h6 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.details {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.details h4{font-style: normal;  height:90px;padding-top: 30px; width:300px;text-decoration: underline;}
+.info {
+    display: grid;
+    padding: 20px 70px;
+    font-size: 20px;
+}
+
+.info p, h4 {
+    text-align: center;
+    
+}
+
+h4 {
+    font-size: 26px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(128, 64, 64);
+}
+/*.item{border:2px solid red;;}*/
+a{text-decoration: none; color: black;}

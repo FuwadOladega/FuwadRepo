@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmnls:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{/css/rootPage.css}">
+</head>
+<body>
+	<header>
+			<img th:src="@{/images/ball.png}">
+		    <h1>Cassie Campbell Community Center</h1>
+	</header>
+<main>
+	<div class="advert">
+	<h2>Soccer</h2>
+	<h3>Tournament</h3>
+	<p class="date">September 29th to October 2nd,2023</p>
+	<br>
+	<p class="date">1050 Sandalwood Pkwy W| Brampton| ON |L7A 0K9</p>
+	</div>
+	<hr>
+	<div class="advert-button">
+		<a th:href="@{/addPage}">
+		<button  class="btn10">BUY TICKETS</button>
+	</a>
+	<a th:href="@{/viewPage}">
+		<button  class="btn10">VIEW TICKETS</button>
+	</a>
+	</div>
+</main>
+<section class="details">
+	<a th:href="@{/addPage}">
+		<h4 class="btn11">
+			Tickets
+		</h4>
+	</a>
+	<a th:href="@{https://www.google.com/maps/dir/43.7210506,-79.7512026/cassie+campbell+community+centre+brampton+location/@43.7194598,-79.8789262,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x882b1474fa809b4d:0xb878d394056b2e88!2m2!1d-79.8244337!2d43.6969327?entry=ttu}">
+		<h4 class="btn11">Locations & Hours</h4>
+	</a>
+	<a th:href="@{https://www.311brampton.ca/?_ga=2.234195294.1728291347.1696075601-1326122787.1696075601}">
+		<h4 class="btn11">Contact</h4>
+	</a>
+	<a th:href="@{https://www.brampton.ca/EN/residents/Recreation/Pages/Rec-Jobs.aspx}">
+		<h4 class="btn11">Join Our Team</h4>
+	</a>
+</section>
+ <hr>
+
+<section class="info">
+		<h4>Introduction:</h4><br>
+        <p>
+            Welcome to the heart-pounding excitement of the Cassie Campbell Soccer Event! This much-anticipated sporting
+            extravaganza is set to captivate soccer enthusiasts and families alike. Held at the iconic Cassie Campbell
+            Community Center, this event promises an unforgettable experience filled with thrilling matches, passionate
+            fans, and an atmosphere charged with the spirit of sportsmanship.
+        </p>
+		<br>
+		<h4>Event Highlight:</h4><br>
+       <p>
+		   The Cassie Campbell Soccer Event is a thrilling celebration that unites communities through intense soccer showdowns, family-friendly activities, skills clinics for young players, and charitable initiatives supporting local causes.
+	   </p>
+	   <br>
+		<h4>Summary:</h4><br>
+        <p>Soccer enthusiasts of all levels are invited to compete at Cassie Campbell Community Center where the thrill
+            of the game meets the spirit of camaraderie. Stay tuned for registration details and exciting prizes. Mark
+            your calendars for a day filled with dazzling goals and unforgettable moments. Be part of the
+            "Championship Soccer Showdown" and let your skills shine on the pitch!
+        </p>
+    </section>
+<hr>
+<div class="container">
+	<div class="item">
+		<a th:href="@{https://calendar.google.com/calendar/u/0/r?pli=1}">
+		<img th:src="@{/images/date.png}">
+		<p>Date & Time</p>
+		<h6>September 29th to October 2nd,2023</h6>
+		</a>
+		<h6>9:00AM - 5:00PM</h6>
+	</div >
+	<div class="item">
+		<a th:href="@{https://www.google.com/maps/dir/43.7210506,-79.7512026/cassie+campbell+community+centre+brampton+location/@43.7194598,-79.8789262,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x882b1474fa809b4d:0xb878d394056b2e88!2m2!1d-79.8244337!2d43.6969327?entry=ttu}">
+		<img th:src="@{/images/map.png}" id="map">
+		<p>Location</p>
+			<h6>1050 Sandalwood Pkwy W| Brampton| ON |L7A 0K9</h6>
+		</a>
+		
+	</div>
+	<div class="item">
+		<a th:href="@{https://www.brampton.ca/EN/residents/Recreation/Community-Centres/Pages/Cassie-Campbell.aspx}">
+		<img th:src="@{/images/venue.png}">
+		<p>Venue</p>
+			<h6>Cassie Campbell Community Center</h6>
+		</a>
+		
+	</div >
+	<div class="item">
+		<a th:href="@{https://www.311brampton.ca/?_ga=2.234195294.1728291347.1696075601-1326122787.1696075601}">
+			<img th:src="@{/images/phone.png}">
+			<p>Contact</p>
+			<h6>+19058404041</h6>
+		</a>
+		
+	</div>
+</div>
+</body>
+</html>

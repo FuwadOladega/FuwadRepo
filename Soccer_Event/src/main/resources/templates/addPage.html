@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{/css/addPage.css}">
+</head>
+<body>
+	<header>
+			<img th:src="@{/images/ball.png}">
+		    <h1>Ticket Request Page</h1>
+	</header>
+	
+	
+	<a th:href="@{/}">
+	<button class="btn10">Return Home</button>
+	</a>
+	
+	
+<form th:action="@{/addPageSubmition}" method="get" th:object="${ticketOrder}">
+	<section>
+		<label>Name<span> *</span></label><br>
+		<input type="text" placeholder="First Name" th:field="*{firstName}" required><br>
+		<input type="text" placeholder="Last Name"  th:field="*{lastName}" required>
+	</section>
+	<br>
+	
+	<section>
+		<label>Email<span> *</span></label><br>
+		<input type="email" placeholder="example@gmail.com" th:field="*{email}" required>
+	</section>
+	<br>
+	
+	<section>
+		<label>Phone Number<span> *</span></label><br>
+		<input type="tel" placeholder="### ### ####" th:field="*{phoneNumber}" required>
+	</section>
+	<br>
+	
+	<section>
+		<label>Ticket Price: <span>* ($20.99 per ticket)</span></label><br>
+		<input type="number" th:field="*{price}" min="1" max="4">
+	</section>
+	<br>
+	
+	<section>
+		<label>Select your age group:</label><br>
+		<select th:field="*{ageGroup}">
+			<option th:each="x : *{ageGroups}" th:text="${x}" th:value="${x}"></option>
+		</select>
+	</section>
+	<br>
+	
+	<fieldset>
+		<legend>Favourite Team</legend>
+		<input type="checkbox" th:field="*{unitedFC}"> ManchesterUnited FC
+		<input type="checkbox" th:field="*{cityFC}"> Mancity FC
+		<input type="checkbox" th:field="*{chelseaFC}">Chelsea FC
+		<input type="checkbox" th:field="*{castleFC}">NewCastle FC
+	</fieldset>
+	
+	<section>
+		<input type="submit" value="Purchase Ticket" class="btn11">
+	</section>
+	
+</form>
+</body>
+</html>

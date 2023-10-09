@@ -1,0 +1,124 @@
+@charset "ISO-8859-1";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    height: 900px;
+}
+
+header {
+    background-color: white;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 33px;
+    border: 2px solid rgb(128, 64, 64);
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(128, 64, 64);
+    font-style: italic;
+    font-size: 35px;
+}
+
+.btn10 {
+    border: 2px solid #f2f2f2;
+    width: 300px;
+    border-radius: 30px;
+    color: rgb(128, 64, 64, 0.5);
+    padding: 15px 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btn10:hover {
+    background-color: white;
+    color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+.btn1 {
+    left: 10px;
+}
+
+form {
+    border: 2px solid silver;
+    width: 700px;
+    margin-top: 50px;
+    background-color: white;
+    margin-left: 28%;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+input[type="number"] {
+    height: 30px;
+    padding-left: 20px;
+}
+
+input[type="number"],
+input[type="tel"] {
+    text-align: center;
+}
+
+select {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 64);
+}
+
+section {
+    display: grid;
+    align-items: center;
+}
+
+label,
+legend {
+    font-weight: 500;
+}
+
+fieldset {
+    padding-left: 30px;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+.btn11 {
+    border: 2px solid rgb(128, 64, 64);
+    width: 300px;
+    border-radius: 30px;
+    color: rgb(128, 64, 64);
+    padding: 15px 5px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: white;
+    font-weight: bolder;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.btn11:hover {
+    background-color: white;
+    color: #4CAF50;
+    border-color: #4CAF50;
+}

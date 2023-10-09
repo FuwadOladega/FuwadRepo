@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{/css/viewPage.css}">
+</head>
+<body>
+<header>
+	<img th:src="@{/images/ball.png}">
+	<h1>Tickets Confirmation Page</h1>
+</header>
+<table>
+	<th>First Name</th>
+	<th>Last Name</th>
+	<th>Email</th>
+	<th>Phone Number</th>
+	<th>Price</th>
+	<th>Age Group</th>
+	<th>Manchester United FC</th>
+	<th>Manchester City FC</th>
+	<th>Chelsea FC</th>
+	<th>NewCastle FC</th>
+	<tr th:each="tickets : ${ticketInfo}">
+		<td th:text="${tickets.firstName}"></td>
+		<td th:text="${tickets.lastName}"></td>
+		<td th:text="${tickets.email}"></td>
+		<td th:text="${tickets.phoneNumber}"></td>
+		<td th:text="'$'+${tickets.price *20.99}"></td>
+		<td th:text="${tickets.ageGroup}"></td>
+		<td th:text="${tickets.unitedFC}"></td>
+		<td th:text="${tickets.cityFC}"></td>
+		<td th:text="${tickets.chelseaFC}"></td>
+		<td th:text="${tickets.castleFC}"></td>
+	</tr>
+</table>
+<a th:href="@{/}">
+	<button class="btn10">Return Home</button>
+</a>
+</body>
+</html>
