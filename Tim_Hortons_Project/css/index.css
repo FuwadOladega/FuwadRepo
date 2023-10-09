@@ -1,0 +1,336 @@
+.main-container
+{
+    display:grid;
+    grid-template-columns: auto;
+    
+}
+/* Header container start*/
+.header-container
+{
+    display:grid;
+    grid-template-columns: 70% 30%;
+    background-color:  rgb(212, 8, 28);
+    height: 100px;
+    
+}
+#label1 {
+    display: inline-grid;
+    width: 500px;
+    height: 180px;
+    position: absolute;
+    top: 8%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .header-item1
+  {
+    
+     display: grid;
+     justify-content: center;
+     position: relative;
+     align-content: start;
+     
+  }
+  .header-item2
+  {
+     
+     display: grid;
+     align-content: center;
+     justify-content: center;
+     grid-template-columns: auto auto;
+     column-gap:8px;
+     height:100px;
+     margin-bottom: 500px ;
+  }
+.other-button
+{
+    margin-right: 10px;
+    border-radius: 30px;
+    padding: 15px 5px;
+    text-decoration: none;
+    width: 160px;
+    display: inline-block;
+    font-size: 16px;
+    background-color:  rgb(212, 8, 28);
+    color: white;
+    font-weight: bold;
+    border-color: white;
+}
+.other-button:hover
+{
+    background-color:  white;
+    color: rgb(212, 8, 28);
+}
+/* Header container end*/
+
+/* intro container start*/
+.intro-container
+{
+    display:grid;
+    grid-template-columns: 24% 30%;
+    background-color: white;
+    height: 500px; 
+    align-content:center ;
+    justify-content: center;
+    column-gap:5%;
+}
+#intro-header
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+.intro-item1
+{
+    height:98%; 
+    margin-left: 13%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    color:#5C4033;
+  
+}
+.intro-item2
+{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+#hero-image
+{
+    margin-left: 15%;
+    width:75%;
+    height:98%; 
+    border-width: 2px;
+    border-style: solid;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+
+}
+/* intro container end*/
+
+/* cupon container start*/
+.cupon-container
+{
+    display:grid;
+    grid-template-columns: 32% 32%;
+    background-color: #EFE5D8;
+    column-gap:40px;
+    height: 1100px; 
+    align-content: center;
+    row-gap: 10px;
+    justify-content: center;
+}
+.cupon
+{
+  height: 520px; 
+  display:grid;
+  border-radius: 7%;
+  background-color: whitesmoke;
+  
+}
+.cupon:hover
+{
+    height: 550px;
+
+}
+.cupon-item1
+{
+    background-color: white;
+    color:black;
+}
+.cupon-item2
+{
+    background-color: white;
+    color: black;
+}
+.cupon-images
+{
+    width:100%; border-top-left-radius:7%;border-top-right-radius:7%;border-width:2px; height:330px;
+}
+.para-button
+{
+    margin-right: 10px;
+    margin-top: 74%;
+    border-radius: 30px;
+    padding: 15px 5px;
+    text-decoration: none;
+    width: 140px;
+    display: inline-block;
+    font-size: 16px;
+    background-color: white;
+    color:  rgb(212, 8, 28);
+    font-weight: bold;
+    border-color:  rgb(212, 8, 28);
+}
+.para-button:hover
+{
+    background-color:  rgb(212, 8, 28);
+    color: white;
+}
+.cupon-body
+{
+    display:grid;
+   grid-template-columns: 65% 30%;
+   padding-left:3%;
+   column-gap: 5px;
+}
+.para-header
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+    font-size: 18px;
+}
+.para-body
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
+/* cupon container end*/
+
+/* app container start*/
+.app-container
+{
+    display:grid;
+    grid-template-columns: 78%;
+    background-color: white;
+    height: 850px; 
+    color:white;
+    justify-content: center;
+}
+
+.app-item
+{
+    background-color: rgb(83, 47, 47);
+    height: 67%; 
+    border-radius: 3.6%;
+    display: grid;
+    margin-top:15%;
+    grid-template-columns:43% 50%;
+    position: relative;
+}
+.app-body
+{
+    padding-top: 90px;
+}
+h4{color:silver;}
+h1
+{
+    font-size: 42px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#the-phone
+{
+    position: absolute;
+    top: 42%;
+    left:18%;
+    height:115%;
+    transform: translate(-50%, -50%);
+}
+.app-stores-image-container
+{
+    display: grid;
+    grid-template-columns: 40% 30%;
+    padding-left:2%;
+    column-gap: 10px;
+    margin: 40px 0px;
+}
+.app-stores-images
+{
+    height:85%;
+    width: 100%;
+    border-radius: 5%;
+    width:170px;
+    border-color: silver;
+    border-style: solid;
+    border-width:2px;
+}
+/* app container end*/
+
+
+
+/* contact container start*/
+.contact-container
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #D3D3D3;
+    grid-template-rows: 35% 50% 15%;
+    color:hsl(21, 91%, 9%);
+   
+}
+.contact-item
+{
+    border-bottom:2px solid gainsboro;
+    padding-left: 60px;
+    
+}
+.contact-item7
+{
+    grid-area: 3/1/3/span 3;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.contact-images
+{
+    width:18px;
+    height:18px;
+    color: #2d1102;
+}
+.contact-images:hover
+{
+   background-color: rgb(198, 109, 109);
+}
+.contact-country
+{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+/* unvisited link */
+a:link {
+    color: hsl(21, 91%, 9%);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: hsl(21, 91%, 9%);
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hsl(21, 91%, 9%);
+    text-decoration: underline;
+  }
+  /* selected link */
+  a:active {
+    color: hsl(21, 91%, 9%);
+    text-decoration: none;
+  }
+
+
+  .change-color:link 
+  {
+    color:  rgb(212, 8, 28);
+    text-decoration: none;
+  }
+  .change-color:visited
+  {
+   color:  rgb(212, 8, 28);
+   text-decoration: none;
+ }
+  .change-color:hover
+  {
+    color:  rgb(212, 8, 28);
+    text-decoration: underline;
+  }
+  .change-color:active 
+  {
+    color:  rgb(212, 8, 28);
+    text-decoration: none;
+  }
+  /* contact container end*/

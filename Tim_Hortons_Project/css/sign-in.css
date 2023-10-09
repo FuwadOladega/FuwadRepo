@@ -1,0 +1,132 @@
+body
+{
+    color:rgb(63, 32, 33);
+    font-style: unset;
+    font-size:100% / 1.5 ;
+    font-family:Helvetica, Arial, sans-serif;
+}
+.container
+{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    height: 1000px;
+    grid-template-columns:1fr 1fr;
+    margin:0 0;
+   
+}
+.first-half-container
+{
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    background-color: rgb(212, 8, 28);
+    display:grid;
+    grid-template-columns:auto;
+}
+#advert
+{
+    width:600px;
+}
+.second-half-container
+{
+    display:grid;
+    grid-template-columns:100%;
+    grid-template-rows:20% 80%;
+    background-color:#EFE5D8;
+}
+.leaf-container{  
+    display:grid; 
+    justify-content: center; 
+    align-content:end;
+}
+#leaf-img
+{
+    width:100px;
+}
+.form-container
+{
+    display:grid;
+    justify-content: center;
+    border-radius: 10%;
+    background-color: white;
+    margin: 5% 28%;
+    width:390px;
+    height:480px;
+    border-width: 5px; 
+}
+
+.myform
+{
+   
+    padding: 10px 30px;
+    margin-top:30px ;  
+}
+
+.boxes
+{
+    width: 280px;
+    height: 40px;
+    padding-left:20px;
+    margin:0px 18px;
+}
+#btn10     
+{
+    border-color:white;
+    width:300px;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 5px;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: rgb(212, 8, 28);
+    font-weight:bold; 
+    margin:3% 6%;     
+}
+    
+#btn10:hover {
+    color: rgb(212, 8, 28) ;
+    background-color: white;
+    border-color: rgb(212, 8, 28);
+  }
+  
+  #Sign-in:link {
+    color: rgb(212, 8, 28);
+    text-decoration: none;
+    font-weight:bold;
+    text-shadow: 2px 1px bisque;
+    
+  }
+  
+  #Sign-in:visited {
+    color: rgb(212, 8, 28);
+    text-decoration: none;
+  }
+  #Sign-in:hover {
+    color: rgb(212, 8, 28);
+    text-decoration: underline;
+    text-decoration-color: silver;
+  }
+  #Sign-in:active {
+    color: rgb(212, 8, 28);
+    text-decoration: none;
+  }
+
+  #Sign-up:link {
+    color:  silver;
+    text-decoration: none;
+    font-weight:bold;
+  }
+  
+  #Sign-up:visited {
+    color:  silver;
+    text-decoration: none;
+  }
+  #Sign-up:hover {
+    color:  hsl(21, 91%, 9%);
+    text-decoration: underline;
+    text-decoration-color: silver;
+  }
+  #Sign-up:active {
+    color: hsl(21, 91%, 9%);
+    text-decoration: none;
+  }
